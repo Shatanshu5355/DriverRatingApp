@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		6FDA4A6C2D075F5000879A8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FDA4A532D075F4E00879A8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FDA4A5A2D075F4E00879A8B;
+			remoteInfo = DriverRatingApp;
+		};
+		6FDA4A762D075F5000879A8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FDA4A532D075F4E00879A8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FDA4A5A2D075F4E00879A8B;
+			remoteInfo = DriverRatingApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6FDA4A5B2D075F4E00879A8B /* DriverRatingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DriverRatingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FDA4A6B2D075F5000879A8B /* DriverRatingAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DriverRatingAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FDA4A752D075F5000879A8B /* DriverRatingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DriverRatingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		6FDA4A5D2D075F4E00879A8B /* DriverRatingApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DriverRatingApp;
+			sourceTree = "<group>";
+		};
+		6FDA4A6E2D075F5000879A8B /* DriverRatingAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DriverRatingAppTests;
+			sourceTree = "<group>";
+		};
+		6FDA4A782D075F5000879A8B /* DriverRatingAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DriverRatingAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FDA4A582D075F4E00879A8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FDA4A682D075F5000879A8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FDA4A722D075F5000879A8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6FDA4A522D075F4E00879A8B = {
+			isa = PBXGroup;
+			children = (
+				6FDA4A5D2D075F4E00879A8B /* DriverRatingApp */,
+				6FDA4A6E2D075F5000879A8B /* DriverRatingAppTests */,
+				6FDA4A782D075F5000879A8B /* DriverRatingAppUITests */,
+				6FDA4A5C2D075F4E00879A8B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6FDA4A5C2D075F4E00879A8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FDA4A5B2D075F4E00879A8B /* DriverRatingApp.app */,
+				6FDA4A6B2D075F5000879A8B /* DriverRatingAppTests.xctest */,
+				6FDA4A752D075F5000879A8B /* DriverRatingAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6FDA4A5A2D075F4E00879A8B /* DriverRatingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FDA4A7F2D075F5000879A8B /* Build configuration list for PBXNativeTarget "DriverRatingApp" */;
+			buildPhases = (
+				6FDA4A572D075F4E00879A8B /* Sources */,
+				6FDA4A582D075F4E00879A8B /* Frameworks */,
+				6FDA4A592D075F4E00879A8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				6FDA4A5D2D075F4E00879A8B /* DriverRatingApp */,
+			);
+			name = DriverRatingApp;
+			packageProductDependencies = (
+			);
+			productName = DriverRatingApp;
+			productReference = 6FDA4A5B2D075F4E00879A8B /* DriverRatingApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6FDA4A6A2D075F5000879A8B /* DriverRatingAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FDA4A822D075F5000879A8B /* Build configuration list for PBXNativeTarget "DriverRatingAppTests" */;
+			buildPhases = (
+				6FDA4A672D075F5000879A8B /* Sources */,
+				6FDA4A682D075F5000879A8B /* Frameworks */,
+				6FDA4A692D075F5000879A8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FDA4A6D2D075F5000879A8B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6FDA4A6E2D075F5000879A8B /* DriverRatingAppTests */,
+			);
+			name = DriverRatingAppTests;
+			packageProductDependencies = (
+			);
+			productName = DriverRatingAppTests;
+			productReference = 6FDA4A6B2D075F5000879A8B /* DriverRatingAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6FDA4A742D075F5000879A8B /* DriverRatingAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FDA4A852D075F5000879A8B /* Build configuration list for PBXNativeTarget "DriverRatingAppUITests" */;
+			buildPhases = (
+				6FDA4A712D075F5000879A8B /* Sources */,
+				6FDA4A722D075F5000879A8B /* Frameworks */,
+				6FDA4A732D075F5000879A8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FDA4A772D075F5000879A8B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6FDA4A782D075F5000879A8B /* DriverRatingAppUITests */,
+			);
+			name = DriverRatingAppUITests;
+			packageProductDependencies = (
+			);
+			productName = DriverRatingAppUITests;
+			productReference = 6FDA4A752D075F5000879A8B /* DriverRatingAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FDA4A532D075F4E00879A8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					6FDA4A5A2D075F4E00879A8B = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					6FDA4A6A2D075F5000879A8B = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 6FDA4A5A2D075F4E00879A8B;
+					};
+					6FDA4A742D075F5000879A8B = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 6FDA4A5A2D075F4E00879A8B;
+					};
+				};
+			};
+			buildConfigurationList = 6FDA4A562D075F4E00879A8B /* Build configuration list for PBXProject "DriverRatingApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6FDA4A522D075F4E00879A8B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 6FDA4A5C2D075F4E00879A8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FDA4A5A2D075F4E00879A8B /* DriverRatingApp */,
+				6FDA4A6A2D075F5000879A8B /* DriverRatingAppTests */,
+				6FDA4A742D075F5000879A8B /* DriverRatingAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6FDA4A592D075F4E00879A8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FDA4A692D075F5000879A8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FDA4A732D075F5000879A8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6FDA4A572D075F4E00879A8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FDA4A672D075F5000879A8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FDA4A712D075F5000879A8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6FDA4A6D2D075F5000879A8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FDA4A5A2D075F4E00879A8B /* DriverRatingApp */;
+			targetProxy = 6FDA4A6C2D075F5000879A8B /* PBXContainerItemProxy */;
+		};
+		6FDA4A772D075F5000879A8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FDA4A5A2D075F4E00879A8B /* DriverRatingApp */;
+			targetProxy = 6FDA4A762D075F5000879A8B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6FDA4A7D2D075F5000879A8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6FDA4A7E2D075F5000879A8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6FDA4A802D075F5000879A8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DriverRatingApp/Preview Content\"";
+				DEVELOPMENT_TEAM = M37WQ67R34;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tejas.DriverRatingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6FDA4A812D075F5000879A8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DriverRatingApp/Preview Content\"";
+				DEVELOPMENT_TEAM = M37WQ67R34;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tejas.DriverRatingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6FDA4A832D075F5000879A8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tejas.DriverRatingAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DriverRatingApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DriverRatingApp";
+			};
+			name = Debug;
+		};
+		6FDA4A842D075F5000879A8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tejas.DriverRatingAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DriverRatingApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DriverRatingApp";
+			};
+			name = Release;
+		};
+		6FDA4A862D075F5000879A8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tejas.DriverRatingAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DriverRatingApp;
+			};
+			name = Debug;
+		};
+		6FDA4A872D075F5000879A8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tejas.DriverRatingAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DriverRatingApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6FDA4A562D075F4E00879A8B /* Build configuration list for PBXProject "DriverRatingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FDA4A7D2D075F5000879A8B /* Debug */,
+				6FDA4A7E2D075F5000879A8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FDA4A7F2D075F5000879A8B /* Build configuration list for PBXNativeTarget "DriverRatingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FDA4A802D075F5000879A8B /* Debug */,
+				6FDA4A812D075F5000879A8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FDA4A822D075F5000879A8B /* Build configuration list for PBXNativeTarget "DriverRatingAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FDA4A832D075F5000879A8B /* Debug */,
+				6FDA4A842D075F5000879A8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FDA4A852D075F5000879A8B /* Build configuration list for PBXNativeTarget "DriverRatingAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FDA4A862D075F5000879A8B /* Debug */,
+				6FDA4A872D075F5000879A8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6FDA4A532D075F4E00879A8B /* Project object */;
+}
